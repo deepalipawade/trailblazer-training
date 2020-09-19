@@ -29,9 +29,11 @@ module User::Operation
             ctx[:users] = User.all
         end
     end
-  
   end
-
+  
+#step return t/f depending on operation
+#pass - successtrack
+#fail - failtrack
   
 # if valid_user then only call load_data ...execution depends on result of each step
 # rails c- resuls[:errors] , 
