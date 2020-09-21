@@ -1,4 +1,7 @@
 # README
+
+**Session 1 Introduction :** 
+
 steps from scratch
 1. Gemgile - gem "trailblazer-rails' - bundle 
 2. rails g model User name:string email:string
@@ -11,6 +14,39 @@ steps from scratch
 9. result= User::Operation::Index.()
 10. result[:users]
 
+**Seesion 4 Cells And Views**
+
+* Goals :
+1) List users - /users
+
+2) Add new User - /users/new
+
+* Add these gems to Gemfile :
+
+gem 'trailblazer-rails'
+
+gem 'trailblazer'
+
+gem 'trailblazer-cells'
+
+gem 'reform','2.2.4'
+
+gem 'reform-rails'
+
+gem 'trailblazer-endpoint', github: 'trailblazer/trailblazer-endpoint'
+
+gem 'pundit'
+
+gem "cells-rails"
+
+gem "cells-haml"
+
+gem 'simple_form', '4.0.0'
+
+* Ignore (_old) create_old.rb , index_old.rb files
+
+-------------------------------------------------------------------------------------------------------------
+Original Readme
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
