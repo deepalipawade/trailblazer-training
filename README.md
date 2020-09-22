@@ -48,6 +48,20 @@ gem 'simple_form', '4.0.0'
 -------------------------------------------------------------------------------------------------------------
 Original Readme
 
+gem 'trailblazer-rails'
+gem 'trailblazer'
+gem 'trailblazer-cells'
+gem 'reform','2.2.4'
+gem 'reform-rails'
+
+gem 'trailblazer-endpoint', github: 'trailblazer/trailblazer-endpoint'
+gem 'pundit'
+gem "cells-rails"
+gem "cells-haml"
+gem 'simple_form', '4.0.0'
+
+Ignore (_old) create_old.rb , index_old.rb files
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
