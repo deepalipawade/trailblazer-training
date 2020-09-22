@@ -9,7 +9,7 @@ steps from scratch
 7. User::Operation::Index.()
 8. index.rb -> add content
 9. result= User::Operation::Index.()
-10. result[:users}
+10. result[:users]
 
 
 This README would normally document whatever steps are necessary to get the

@@ -1,0 +1,6 @@
+= simple_form_for @model do |user|
+    = user.input(:name)
+    = user.input(:email)
+    = user.input(:password)
+    = user.input(:password_confirmation)
+    = user.submit
